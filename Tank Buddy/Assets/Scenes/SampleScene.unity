@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 523040921}
   - component: {fileID: 523040920}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 807284841}
   - component: {fileID: 807284840}
   - component: {fileID: 807284839}
+  - component: {fileID: 807284842}
   m_Layer: 0
   m_Name: Canon
   m_TagString: Untagged
@@ -504,6 +505,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807284837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &807284842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807284837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909f518c92c9ca24490a453b59498ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
 --- !u!1 &884271518
 GameObject:
   m_ObjectHideFlags: 0
