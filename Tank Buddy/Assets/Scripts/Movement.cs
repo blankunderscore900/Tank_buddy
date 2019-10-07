@@ -18,7 +18,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = 0;
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f);
 
